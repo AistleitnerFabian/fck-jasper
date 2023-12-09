@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen bg-gray-700 h-screen">
+    <div class="w-full bg-gray-700 min-h-screen h-full">
         <div class="pdf-container min-h-screen bg-white shadow-2xl">
             <PrintLayout>
                 <slot/>
@@ -12,7 +12,7 @@
 import PrintLayout from '~/layouts/print-layout.vue';
 </script>
 
-<style scoped>
+<style>
 .pdf-container {
     @apply container;
     width: 800px;

@@ -18,10 +18,3 @@ npm run dev
 ```
 
 Start the development page on `http://localhost:3000?dev=true`:
-
-Try generating on dev server using Gotenberg running on docker
-
-```bash
-POST http://localhost:3200/forms/chromium/convert/url 
---form 'url="http://host.docker.internal:3000/installation-report"'
-```
