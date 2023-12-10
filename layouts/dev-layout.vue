@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-gray-700 min-h-screen h-full">
-        <div class="pdf-container min-h-screen bg-white shadow-2xl">
+        <div class="pdf-container min-h-screen bg-white shadow-2xl print:shadow-none">
             <PrintLayout>
                 <slot/>
             </PrintLayout>

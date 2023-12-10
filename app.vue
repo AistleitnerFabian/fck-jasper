@@ -8,3 +8,6 @@
 const devMode: boolean = useRoute().query.dev === "true"
 const layoutName = ref(!devMode ? 'print-layout' : "dev-layout")
 </script>
+
+<style>
+</style>

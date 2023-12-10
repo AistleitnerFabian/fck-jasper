@@ -18,3 +18,7 @@ npm run dev
 ```
 
 Start the development page on `http://localhost:3000?dev=true`:
+
+### Ref: Footers & Headers
+
+https://medium.com/@Idan_Co/the-ultimate-print-html-template-with-header-footer-568f415f6d2a

@@ -12,7 +12,7 @@
 <script lang="ts" setup>
 const imageUrl = "https://picsum.photos/1920/1080"
 const images = []
-for (let i = 0; i < 500; i++) {
+for (let i = 0; i < 5; i++) {
     images.push(`${imageUrl}?i=${i}`)
 }
 </script>
